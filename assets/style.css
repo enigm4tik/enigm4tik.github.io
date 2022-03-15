@@ -1,0 +1,101 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo_font {
+  font-family: 'Nerko One', cursive;
+}
+
+.menu_left {
+  float: left;
+  margin-top: -25px;
+}
+
+h1 {
+  font-size: 40pt;
+}
+
+.menu_right {
+  float: right;
+}
+
+.main {
+  width: 60%;
+  margin: auto;
+}
+
+.header {
+  height: 20px;
+  margin: 10px;
+}
+
+.footer {
+  width: 60%;
+  background-color: lightslategray;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  font-weight: bold;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.footer_right {
+  float: right;
+  padding: 10px;
+}
+
+.footer_left {
+  float: left;
+  padding: 10px;
+}
+
+.header_stuff {
+  position: relative;
+  height: 200px;
+  border-radius: 10px;
+  background-color: lightgray;
+  /*box-shadow: 2px 2px 5px lightslategray;*/
+}
+
+.centered_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  position: relative;
+  height: 500px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.circle {
+  position: relative;
+  float: left;
+  height: 200px;
+  width: 200px;
+  background-color: slategray;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.content_box {
+  position: relative;
+  background-color: lightslategray;
+  margin-left: 220px;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 90px;
+  z-index: 0;
+}
+
+.menu_left a {
+  color: black;
+  text-decoration: none;
+}
