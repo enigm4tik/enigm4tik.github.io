@@ -1,8 +1,10 @@
+## My Advent of Code Story
+
 ## What is Advent of Code?
 > [Advent of Code](www.adventofcode.com) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as interview prep, company training, university coursework, practice problems, a speed contest, or to challenge each other.
 
 
-## My Advent of Code Story
+## 2020
 
 When I heard of Advent of Code for the first time in 2020 I was too intimidated to even try to participate.  
 If I remember correctly, I solved exactly one of the puzzles and the second one was already too difficult to even attempt.
