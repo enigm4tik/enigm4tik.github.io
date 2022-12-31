@@ -13,6 +13,7 @@ If I remember correctly, I solved exactly one of the puzzles and the second one 
 
 In 2021 I wanted to try it - this time for real. I was still struggling with a lot of the puzzles but I got to day 11, had to skip day 12 and continued with 13 and 14.  
 > What was Day 12 you may ask? 
+
 Basically, it was a simple application of graph theory. Since I am self-taught (in all the languages I know) I only ever touched what I needed to know to solve a problem.  
 Looks like I never needed to know about graphs, their theory and their algorithms.  
 That year I declared [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) my _arch nemesis_. I just couldn't wrap my head around it.  
@@ -23,7 +24,8 @@ I tried really hard to come up with solutions and not to look up other people's 
 This, naturally, led me to use old pattern and skip everything I didn't know (theory-wise) or was unable to solve.  
 However, since I solved so many of them (136 *) across 5 years, I learned a lot and was (_at least theoretically_) prepared for 2022.  
 ```
-When applying to university, one of the people who interviewed me was impressed with my participation in Advent of Code over the years and wished me luck for this year.
+When applying to university, one of the people who interviewed me was impressed with my participation
+in Advent of Code over the years and wished me luck for this year.
 ```
 
 ### 2022
