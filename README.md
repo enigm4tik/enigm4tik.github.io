@@ -1,5 +1,5 @@
-# Personal Homepage
+# My Frog 
 
-A repository to host my github.io homepage. 
+A frog blog that has nothing to do with frogs :D  
+I just like frogs coding and writing!
 
-For now it is written in html but my plan is to use yaml and markdown instead!

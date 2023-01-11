@@ -1,0 +1,52 @@
+Let's get into things
+
+I got some time today so I thought why not start off what I was bravely announcing last year.  
+Suffice to say these solutions and thoughts are spoilers for the puzzles shown.
+
+## Day 1/25 2015
+Let me describe the problem for [day 1](https://adventofcode.com/2015/day/1) really quickly.  
+This character `(` is set to count as `+1` while this character `)` counts as `-1`.   
+The input is one line with a lot of these characters and the question is to calculate the overall score. 
+
+In my solution I counted the occurence of `(` and subtracted the count of `)`.  
+```py
+amount_of_plus = lines[0].count('(')
+amount_of_minus = lines[0].count(')')
+result = amount_of_plus - amount_of_minus
+```
+
+As far as I have seen in the solution megathread, there were no solutions that used regex in Python.  
+Granted back in those days people were using Python 2.7 and did not really try to optimize their solutions like they do nowadays.  
+
+---
+
+For part 2 the problem was to figure out the position of the character that first went into the negatives.  
+Obviously the simple counting would not lead to a solution. An iteration is needed!  
+
+```py
+for index, character in enumerate(lines[0]):
+    floor += directions[character]
+    if floor == -1:
+        return index + 1 # because python is indexed at 0
+```
+
+Again, using enumerate helps with keeping track of the index while iterating over the characters.  
+Most of the solutions were using Python2 however I found one person who also used Python 3 and produced this solution:
+
+```py
+list(itertools.accumulate([1 if b == '(' else -1 for x in in_string])).index(-1) + 1
+```
+
+The [itertools](https://docs.python.org/3/library/itertools.html) are a very powerful library to help with iteration problems.  
+However, this solution is still iterating over each item and then calculating the values and returning the index - so technically, I'm good on these ones!
+
+Ha, my first write-up - very fun!  
+See you around!
+
+``` py
+enigm4tik
+``` 
+
+## Links
+[My solution](https://github.com/enigm4tik/advent-of-code/blob/main/2015/day01/day01.py)
+[Solution Megathread](https://www.reddit.com/r/programming/comments/3uyl7s/daily_programming_puzzles_at_advent_of_code/)
