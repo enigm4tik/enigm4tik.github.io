@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "My Advent of Code Story"
-categories: [AoC, Personal]
 ---
 
 ## What is Advent of Code?

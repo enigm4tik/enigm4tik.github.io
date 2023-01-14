@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Starting my blog"
-categories: [Blog]
 ---
 
 This is technically just a test post to figure out how to properly use a blog.
