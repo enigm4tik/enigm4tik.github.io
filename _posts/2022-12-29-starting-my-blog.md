@@ -1,7 +1,4 @@
----
-layout: post
-title:  "Starting my blog"
----
+## Starting my blog
 
 This is technically just a test post to figure out how to properly use a blog.
 I have some ideas I want to put on here and I hope I'll have the time and motivation to work on this. 
