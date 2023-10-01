@@ -1,3 +1,5 @@
-Welcome!
+# Welcome to my little blog :D
 
-Let's see what I'll make out of this.
+Read about the things I'm interested in! 
+
+enigm4tik :) 
